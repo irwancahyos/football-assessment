@@ -1,0 +1,1172 @@
+[
+  {
+    "id": 1,
+    "category": "defensive",
+    "difficulty": "Sulit",
+    "videoUrl": "https://res.cloudinary.com/d4lu46yz/video/upload/question-1.mp4",
+    "question": "Bagaimana Center Back mengambil keputusan?",
+    "hintText": "Tetap Pada Posisi",
+    "hintTargetOptionId": "b",
+    "options": [
+      {
+        "id": "a",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q1-answer-a-v2.png",
+        "points": 4,
+        "label": "Opsi A",
+        "action": "move"
+      },
+      {
+        "id": "b",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q1-answer-b-v2.png",
+        "points": 2,
+        "label": "Opsi B",
+        "action": "stay"
+      },
+      {
+        "id": "c",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q1-answer-c-v2.png",
+        "points": 3,
+        "label": "Opsi C",
+        "action": "move"
+      },
+      {
+        "id": "d",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q1-answer-d-v2.png",
+        "points": 1,
+        "label": "Opsi D",
+        "action": "move"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "category": "defensive",
+    "difficulty": "Mudah",
+    "videoUrl": "https://res.cloudinary.com/d4lu46yz/video/upload/question-2.mp4",
+    "question": "Bagaimana keputusan terbaik Straiker saat bertahan?",
+    "hintText": "",
+    "hintTargetOptionId": "a",
+    "options": [
+      {
+        "id": "a",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q2-answer-a-v2.png",
+        "points": 2,
+        "label": "Opsi A",
+        "action": "move"
+      },
+      {
+        "id": "b",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q2-answer-b-v2.png",
+        "points": 4,
+        "label": "Opsi B",
+        "action": "move"
+      },
+      {
+        "id": "c",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q2-answer-c-v2.png",
+        "points": 3,
+        "label": "Opsi C",
+        "action": "move"
+      },
+      {
+        "id": "d",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q2-answer-d-v2.png",
+        "points": 1,
+        "label": "Opsi D",
+        "action": "move"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "category": "defensive",
+    "difficulty": "Sulit",
+    "videoUrl": "https://res.cloudinary.com/d4lu46yz/video/upload/question-3.mp4",
+    "question": "Bagaimana Central Attacking Midfielder mengambil keputusan?",
+    "hintText": "Tetap Pada Posisi",
+    "hintTargetOptionId": "b",
+    "options": [
+      {
+        "id": "a",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q3-answer-a-v2.png",
+        "points": 1,
+        "label": "Opsi A",
+        "action": "move"
+      },
+      {
+        "id": "b",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q3-answer-b-v2.png",
+        "points": 2,
+        "label": "Opsi B",
+        "action": "stay"
+      },
+      {
+        "id": "c",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q3-answer-c-v2.png",
+        "points": 4,
+        "label": "Opsi C",
+        "action": "move"
+      },
+      {
+        "id": "d",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q3-answer-d-v2.png",
+        "points": 3,
+        "label": "Opsi D",
+        "action": "move"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "category": "defensive",
+    "difficulty": "Mudah",
+    "videoUrl": "https://res.cloudinary.com/d4lu46yz/video/upload/question-4.mp4",
+    "question": "Bagaimana Center Back mengambil keputusan?",
+    "hintText": "Tetap Pada Posisi",
+    "hintTargetOptionId": "d",
+    "options": [
+      {
+        "id": "a",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q4-answer-a-v2.png",
+        "points": 2,
+        "label": "Opsi A",
+        "action": "move"
+      },
+      {
+        "id": "b",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q4-answer-b-v2.png",
+        "points": 4,
+        "label": "Opsi B",
+        "action": "move"
+      },
+      {
+        "id": "c",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q4-answer-c-v2.png",
+        "points": 1,
+        "label": "Opsi C",
+        "action": "move"
+      },
+      {
+        "id": "d",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q4-answer-d-v2.png",
+        "points": 3,
+        "label": "Opsi D",
+        "action": "stay"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "category": "defensive",
+    "difficulty": "Mudah",
+    "videoUrl": "https://res.cloudinary.com/d4lu46yz/video/upload/question-5.mp4",
+    "question": "Bagaimana Center Back mengambil keputusan?",
+    "hintText": "Lakukan Duel Udara",
+    "hintTargetOptionId": "a",
+    "options": [
+      {
+        "id": "a",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q5-answer-a-v2.png",
+        "points": 4,
+        "label": "Opsi A",
+        "action": "move"
+      },
+      {
+        "id": "b",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q5-answer-b-v2.png",
+        "points": 3,
+        "label": "Opsi B",
+        "action": "move"
+      },
+      {
+        "id": "c",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q5-answer-c-v2.png",
+        "points": 1,
+        "label": "Opsi C",
+        "action": "move"
+      },
+      {
+        "id": "d",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q5-answer-d-v2.png",
+        "points": 2,
+        "label": "Opsi D",
+        "action": "move"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "category": "defensive",
+    "difficulty": "Mudah",
+    "videoUrl": "https://res.cloudinary.com/d4lu46yz/video/upload/question-6.mp4",
+    "question": "Bagaimana Straiker mengambil keputusan?",
+    "hintText": "Tetap Pada Posisi",
+    "hintTargetOptionId": "c",
+    "options": [
+      {
+        "id": "a",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q6-answer-a-v2.png",
+        "points": 1,
+        "label": "Opsi A",
+        "action": "move"
+      },
+      {
+        "id": "b",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q6-answer-b-v2.png",
+        "points": 3,
+        "label": "Opsi B",
+        "action": "move"
+      },
+      {
+        "id": "c",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q6-answer-c-v2.png",
+        "points": 2,
+        "label": "Opsi C",
+        "action": "stay"
+      },
+      {
+        "id": "d",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q6-answer-d-v2.png",
+        "points": 4,
+        "label": "Opsi D",
+        "action": "move"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "category": "defensive",
+    "difficulty": "Mudah",
+    "videoUrl": "https://res.cloudinary.com/d4lu46yz/video/upload/question-7.mp4",
+    "question": "Bagaimana Center Back mengambil keputusan?",
+    "hintText": "Tetap Pada Posisi",
+    "hintTargetOptionId": "b",
+    "options": [
+      {
+        "id": "a",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q7-answer-a-v2.png",
+        "points": 4,
+        "label": "Opsi A",
+        "action": "move"
+      },
+      {
+        "id": "b",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q7-answer-b-v2.png",
+        "points": 3,
+        "label": "Opsi B",
+        "action": "stay"
+      },
+      {
+        "id": "c",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q7-answer-c-v2.png",
+        "points": 2,
+        "label": "Opsi C",
+        "action": "move"
+      },
+      {
+        "id": "d",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q7-answer-d-v2.png",
+        "points": 1,
+        "label": "Opsi D",
+        "action": "move"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "category": "defensive",
+    "difficulty": "Sulit",
+    "videoUrl": "https://res.cloudinary.com/d4lu46yz/video/upload/question-8.mp4",
+    "question": "Bagaimana Right Back mengambil keputusan?",
+    "hintText": "Tetap Pada Posisi",
+    "hintTargetOptionId": "d",
+    "options": [
+      {
+        "id": "a",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q8-answer-a-v2.png",
+        "points": 3,
+        "label": "Opsi A",
+        "action": "move"
+      },
+      {
+        "id": "b",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q8-answer-b-v2.png",
+        "points": 2,
+        "label": "Opsi B",
+        "action": "move"
+      },
+      {
+        "id": "c",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q8-answer-c-v2.png",
+        "points": 4,
+        "label": "Opsi C",
+        "action": "move"
+      },
+      {
+        "id": "d",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q8-answer-d-v2.png",
+        "points": 1,
+        "label": "Opsi D",
+        "action": "stay"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "category": "defensive",
+    "difficulty": "Sulit",
+    "videoUrl": "https://res.cloudinary.com/d4lu46yz/video/upload/question-9.mp4",
+    "question": "Bagaimana Center Back mengambil keputusan?",
+    "hintText": "Tetap Pada Posisi",
+    "hintTargetOptionId": "a",
+    "options": [
+      {
+        "id": "a",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q9-answer-a-v2.png",
+        "points": 3,
+        "label": "Opsi A",
+        "action": "stay"
+      },
+      {
+        "id": "b",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q9-answer-b-v2.png",
+        "points": 1,
+        "label": "Opsi B",
+        "action": "move"
+      },
+      {
+        "id": "c",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q9-answer-c-v2.png",
+        "points": 4,
+        "label": "Opsi C",
+        "action": "move"
+      },
+      {
+        "id": "d",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q9-answer-d-v2.png",
+        "points": 2,
+        "label": "Opsi D",
+        "action": "move"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "category": "defensive",
+    "difficulty": "Sulit",
+    "videoUrl": "https://res.cloudinary.com/d4lu46yz/video/upload/question-10.mp4",
+    "question": "Bagaimana Left Wing Forward mengambil keputusan?",
+    "hintText": "Tetap Pada Posisi",
+    "hintTargetOptionId": "d",
+    "options": [
+      {
+        "id": "a",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q10-answer-a-v2.png",
+        "points": 1,
+        "label": "Opsi A",
+        "action": "move"
+      },
+      {
+        "id": "b",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q10-answer-b-v2.png",
+        "points": 4,
+        "label": "Opsi B",
+        "action": "move"
+      },
+      {
+        "id": "c",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q10-answer-c-v2.png",
+        "points": 3,
+        "label": "Opsi C",
+        "action": "move"
+      },
+      {
+        "id": "d",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q10-answer-d-v2.png",
+        "points": 2,
+        "label": "Opsi D",
+        "action": "stay"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "category": "defensive",
+    "difficulty": "Mudah",
+    "videoUrl": "https://res.cloudinary.com/d4lu46yz/video/upload/question-11.mp4",
+    "question": "Bagaimana Central Defensive Midfielder mengambil keputusan?",
+    "hintText": "Tetap Pada Posisi",
+    "hintTargetOptionId": "c",
+    "options": [
+      {
+        "id": "a",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q11-answer-a-v2.png",
+        "points": 4,
+        "label": "Opsi A",
+        "action": "move"
+      },
+      {
+        "id": "b",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q11-answer-b-v2.png",
+        "points": 1,
+        "label": "Opsi B",
+        "action": "move"
+      },
+      {
+        "id": "c",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q11-answer-c-v2.png",
+        "points": 3,
+        "label": "Opsi C",
+        "action": "stay"
+      },
+      {
+        "id": "d",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q11-answer-d-v2.png",
+        "points": 2,
+        "label": "Opsi D",
+        "action": "move"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "category": "defensive",
+    "difficulty": "Sedang",
+    "videoUrl": "https://res.cloudinary.com/d4lu46yz/video/upload/question-12.mp4",
+    "question": "Bagaimana Center Back mengambil keputusan?",
+    "hintText": "Tetap Pada Posisi",
+    "hintTargetOptionId": "a",
+    "options": [
+      {
+        "id": "a",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q12-answer-a-v2.png",
+        "points": 3,
+        "label": "Opsi A",
+        "action": "stay"
+      },
+      {
+        "id": "b",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q12-answer-b-v2.png",
+        "points": 2,
+        "label": "Opsi B",
+        "action": "move"
+      },
+      {
+        "id": "c",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q12-answer-c-v2.png",
+        "points": 1,
+        "label": "Opsi C",
+        "action": "move"
+      },
+      {
+        "id": "d",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q12-answer-d-v2.png",
+        "points": 4,
+        "label": "Opsi D",
+        "action": "move"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "category": "defensive",
+    "difficulty": "Sulit",
+    "videoUrl": "https://res.cloudinary.com/d4lu46yz/video/upload/question-13.mp4",
+    "question": "Bagaimana Left Back mengambil keputusan?",
+    "hintText": "Tetap Pada Posisi",
+    "hintTargetOptionId": "a",
+    "options": [
+      {
+        "id": "a",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q13-answer-a-v2.png",
+        "points": 4,
+        "label": "Opsi A",
+        "action": "stay"
+      },
+      {
+        "id": "b",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q13-answer-b-v2.png",
+        "points": 1,
+        "label": "Opsi B",
+        "action": "move"
+      },
+      {
+        "id": "c",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q13-answer-c-v2.png",
+        "points": 3,
+        "label": "Opsi C",
+        "action": "move"
+      },
+      {
+        "id": "d",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q13-answer-d-v2.png",
+        "points": 2,
+        "label": "Opsi D",
+        "action": "move"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "category": "defensive",
+    "difficulty": "Sedang",
+    "videoUrl": "https://res.cloudinary.com/d4lu46yz/video/upload/question-14.mp4",
+    "question": "Bagaimana Central Attacking Midfielder mengambil keputusan?",
+    "hintText": "Tetap Pada Posisi",
+    "hintTargetOptionId": "b",
+    "options": [
+      {
+        "id": "a",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q14-answer-a-v2.png",
+        "points": 3,
+        "label": "Opsi A",
+        "action": "move"
+      },
+      {
+        "id": "b",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q14-answer-b-v2.png",
+        "points": 2,
+        "label": "Opsi B",
+        "action": "stay"
+      },
+      {
+        "id": "c",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q14-answer-c-v2.png",
+        "points": 1,
+        "label": "Opsi C",
+        "action": "move"
+      },
+      {
+        "id": "d",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q14-answer-d-v2.png",
+        "points": 4,
+        "label": "Opsi D",
+        "action": "move"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "category": "defensive",
+    "difficulty": "Sulit",
+    "videoUrl": "https://res.cloudinary.com/d4lu46yz/video/upload/question-15.mp4",
+    "question": "Bagaimana Right Wing Forward mengambil keputusan?",
+    "hintText": "Tetap Pada Posisi",
+    "hintTargetOptionId": "a",
+    "options": [
+      {
+        "id": "a",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q15-answer-a-v2.png",
+        "points": 3,
+        "label": "Opsi A",
+        "action": "stay"
+      },
+      {
+        "id": "b",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q15-answer-b-v2.png",
+        "points": 4,
+        "label": "Opsi B",
+        "action": "move"
+      },
+      {
+        "id": "c",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q15-answer-c-v2.png",
+        "points": 2,
+        "label": "Opsi C",
+        "action": "move"
+      },
+      {
+        "id": "d",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q15-answer-d-v2.png",
+        "points": 1,
+        "label": "Opsi D",
+        "action": "move"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "category": "offensive",
+    "difficulty": "Mudah",
+    "videoUrl": "https://res.cloudinary.com/d4lu46yz/video/upload/question-16.mp4",
+    "question": "Bagaimana Right Back mengambil keputusan?",
+    "hintText": "Tetap Pada Posisi",
+    "hintTargetOptionId": "b",
+    "options": [
+      {
+        "id": "a",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q16-answer-a-v2.png",
+        "points": 2,
+        "label": "Opsi A",
+        "action": "move"
+      },
+      {
+        "id": "b",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q16-answer-b-v2.png",
+        "points": 3,
+        "label": "Opsi B",
+        "action": "stay"
+      },
+      {
+        "id": "c",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q16-answer-c-v2.png",
+        "points": 4,
+        "label": "Opsi C",
+        "action": "move"
+      },
+      {
+        "id": "d",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q16-answer-d-v2.png",
+        "points": 1,
+        "label": "Opsi D",
+        "action": "move"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "category": "offensive",
+    "difficulty": "Sedang",
+    "videoUrl": "https://res.cloudinary.com/d4lu46yz/video/upload/question-17.mp4",
+    "question": "Bagaimana Left Wing Forward mengambil keputusan?",
+    "hintText": "Tetap Pada Posisi",
+    "hintTargetOptionId": "b",
+    "options": [
+      {
+        "id": "a",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q17-answer-a-v2.png",
+        "points": 2,
+        "label": "Opsi A",
+        "action": "move"
+      },
+      {
+        "id": "b",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q17-answer-b-v2.png",
+        "points": 1,
+        "label": "Opsi B",
+        "action": "stay"
+      },
+      {
+        "id": "c",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q17-answer-c-v2.png",
+        "points": 3,
+        "label": "Opsi C",
+        "action": "move"
+      },
+      {
+        "id": "d",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q17-answer-d-v2.png",
+        "points": 4,
+        "label": "Opsi D",
+        "action": "move"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "category": "offensive",
+    "difficulty": "Sulit",
+    "videoUrl": "https://res.cloudinary.com/d4lu46yz/video/upload/question-18.mp4",
+    "question": "Bagaimana Center Back mengambil keputusan?",
+    "hintText": "",
+    "hintTargetOptionId": "a",
+    "options": [
+      {
+        "id": "a",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q18-answer-a-v2.png",
+        "points": 2,
+        "label": "Opsi A",
+        "action": "move"
+      },
+      {
+        "id": "b",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q18-answer-b-v2.png",
+        "points": 4,
+        "label": "Opsi B",
+        "action": "move"
+      },
+      {
+        "id": "c",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q18-answer-c-v2.png",
+        "points": 1,
+        "label": "Opsi C",
+        "action": "move"
+      },
+      {
+        "id": "d",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q18-answer-d-v2.png",
+        "points": 3,
+        "label": "Opsi D",
+        "action": "move"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "category": "offensive",
+    "difficulty": "Sulit",
+    "videoUrl": "https://res.cloudinary.com/d4lu46yz/video/upload/question-19.mp4",
+    "question": "Bagaimana Central Attacking Midfielder mengambil keputusan?",
+    "hintText": "Tetap Pada Posisi",
+    "hintTargetOptionId": "b",
+    "options": [
+      {
+        "id": "a",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q19-answer-a-v2.png",
+        "points": 1,
+        "label": "Opsi A",
+        "action": "move"
+      },
+      {
+        "id": "b",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q19-answer-b-v2.png",
+        "points": 2,
+        "label": "Opsi B",
+        "action": "stay"
+      },
+      {
+        "id": "c",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q19-answer-c-v2.png",
+        "points": 4,
+        "label": "Opsi C",
+        "action": "move"
+      },
+      {
+        "id": "d",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q19-answer-d-v2.png",
+        "points": 3,
+        "label": "Opsi D",
+        "action": "move"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "category": "offensive",
+    "difficulty": "Sulit",
+    "videoUrl": "https://res.cloudinary.com/d4lu46yz/video/upload/question-20.mp4",
+    "question": "Bagaimana Right Wing Forward mengambil keputusan?",
+    "hintText": "Tetap Pada Posisi",
+    "hintTargetOptionId": "d",
+    "options": [
+      {
+        "id": "a",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q20-answer-a-v2.png",
+        "points": 2,
+        "label": "Opsi A",
+        "action": "move"
+      },
+      {
+        "id": "b",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q20-answer-b-v2.png",
+        "points": 1,
+        "label": "Opsi B",
+        "action": "move"
+      },
+      {
+        "id": "c",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q20-answer-c-v2.png",
+        "points": 4,
+        "label": "Opsi C",
+        "action": "move"
+      },
+      {
+        "id": "d",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q20-answer-d-v2.png",
+        "points": 3,
+        "label": "Opsi D",
+        "action": "stay"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "category": "offensive",
+    "difficulty": "Sulit",
+    "videoUrl": "https://res.cloudinary.com/d4lu46yz/video/upload/question-21.mp4",
+    "question": "Bagaimana Center Back mengambil keputusan?",
+    "hintText": "",
+    "hintTargetOptionId": "a",
+    "options": [
+      {
+        "id": "a",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q21-answer-a-v2.png",
+        "points": 4,
+        "label": "Opsi A",
+        "action": "move"
+      },
+      {
+        "id": "b",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q21-answer-b-v2.png",
+        "points": 1,
+        "label": "Opsi B",
+        "action": "move"
+      },
+      {
+        "id": "c",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q21-answer-c-v2.png",
+        "points": 3,
+        "label": "Opsi C",
+        "action": "move"
+      },
+      {
+        "id": "d",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q21-answer-d-v2.png",
+        "points": 2,
+        "label": "Opsi D",
+        "action": "move"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "category": "offensive",
+    "difficulty": "Sulit",
+    "videoUrl": "https://res.cloudinary.com/d4lu46yz/video/upload/question-22.mp4",
+    "question": "Bagaimana Central Attacking Midfielder mengambil keputusan?",
+    "hintText": "",
+    "hintTargetOptionId": "a",
+    "options": [
+      {
+        "id": "a",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q22-answer-a-v2.png",
+        "points": 4,
+        "label": "Opsi A",
+        "action": "move"
+      },
+      {
+        "id": "b",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q22-answer-b-v2.png",
+        "points": 3,
+        "label": "Opsi B",
+        "action": "move"
+      },
+      {
+        "id": "c",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q22-answer-c-v2.png",
+        "points": 1,
+        "label": "Opsi C",
+        "action": "move"
+      },
+      {
+        "id": "d",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q22-answer-d-v2.png",
+        "points": 2,
+        "label": "Opsi D",
+        "action": "move"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "category": "offensive",
+    "difficulty": "Sulit",
+    "videoUrl": "https://res.cloudinary.com/d4lu46yz/video/upload/question-23.mp4",
+    "question": "Bagaimana Straiker mengambil keputusan?",
+    "hintText": "Tetap Pada Posisi",
+    "hintTargetOptionId": "d",
+    "options": [
+      {
+        "id": "a",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q23-answer-a-v2.png",
+        "points": 1,
+        "label": "Opsi A",
+        "action": "move"
+      },
+      {
+        "id": "b",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q23-answer-b-v2.png",
+        "points": 4,
+        "label": "Opsi B",
+        "action": "move"
+      },
+      {
+        "id": "c",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q23-answer-c-v2.png",
+        "points": 3,
+        "label": "Opsi C",
+        "action": "move"
+      },
+      {
+        "id": "d",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q23-answer-d-v2.png",
+        "points": 2,
+        "label": "Opsi D",
+        "action": "stay"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "category": "offensive",
+    "difficulty": "Sulit",
+    "videoUrl": "https://res.cloudinary.com/d4lu46yz/video/upload/question-24.mp4",
+    "question": "Bagaimana Left Back mengambil keputusan?",
+    "hintText": "Tetap Pada Posisi",
+    "hintTargetOptionId": "b",
+    "options": [
+      {
+        "id": "a",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q24-answer-a-v2.png",
+        "points": 3,
+        "label": "Opsi A",
+        "action": "move"
+      },
+      {
+        "id": "b",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q24-answer-b-v2.png",
+        "points": 1,
+        "label": "Opsi B",
+        "action": "stay"
+      },
+      {
+        "id": "c",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q24-answer-c-v2.png",
+        "points": 4,
+        "label": "Opsi C",
+        "action": "move"
+      },
+      {
+        "id": "d",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q24-answer-d-v2.png",
+        "points": 2,
+        "label": "Opsi D",
+        "action": "move"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "category": "offensive",
+    "difficulty": "Sedang",
+    "videoUrl": "https://res.cloudinary.com/d4lu46yz/video/upload/question-25.mp4",
+    "question": "Bagaimana Right Wing Forward mengambil keputusan?",
+    "hintText": "",
+    "hintTargetOptionId": "a",
+    "options": [
+      {
+        "id": "a",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q25-answer-a-v2.png",
+        "points": 1,
+        "label": "Opsi A",
+        "action": "move"
+      },
+      {
+        "id": "b",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q25-answer-b-v2.png",
+        "points": 2,
+        "label": "Opsi B",
+        "action": "move"
+      },
+      {
+        "id": "c",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q25-answer-c-v2.png",
+        "points": 3,
+        "label": "Opsi C",
+        "action": "move"
+      },
+      {
+        "id": "d",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q25-answer-d-v2.png",
+        "points": 4,
+        "label": "Opsi D",
+        "action": "move"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "category": "offensive",
+    "difficulty": "Mudah",
+    "videoUrl": "https://res.cloudinary.com/d4lu46yz/video/upload/question-26.mp4",
+    "question": "Bagaimana Straiker mengambil keputusan?",
+    "hintText": "Free Ball Untuk Attacking Midfielder",
+    "hintTargetOptionId": "d",
+    "options": [
+      {
+        "id": "a",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q26-answer-a-v2.png",
+        "points": 1,
+        "label": "Opsi A",
+        "action": "move"
+      },
+      {
+        "id": "b",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q26-answer-b-v2.png",
+        "points": 3,
+        "label": "Opsi B",
+        "action": "move"
+      },
+      {
+        "id": "c",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q26-answer-c-v2.png",
+        "points": 2,
+        "label": "Opsi C",
+        "action": "move"
+      },
+      {
+        "id": "d",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q26-answer-d-v2.png",
+        "points": 4,
+        "label": "Opsi D",
+        "action": "move"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "category": "offensive",
+    "difficulty": "Sulit",
+    "videoUrl": "https://res.cloudinary.com/d4lu46yz/video/upload/question-27.mp4",
+    "question": "Bagaimana Right Wing Forward mengambil keputusan?",
+    "hintText": "Tetap Pada Posisi",
+    "hintTargetOptionId": "a",
+    "options": [
+      {
+        "id": "a",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q27-answer-a-v2.png",
+        "points": 3,
+        "label": "Opsi A",
+        "action": "stay"
+      },
+      {
+        "id": "b",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q27-answer-b-v2.png",
+        "points": 2,
+        "label": "Opsi B",
+        "action": "move"
+      },
+      {
+        "id": "c",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q27-answer-c-v2.png",
+        "points": 4,
+        "label": "Opsi C",
+        "action": "move"
+      },
+      {
+        "id": "d",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q27-answer-d-v2.png",
+        "points": 1,
+        "label": "Opsi D",
+        "action": "move"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "category": "offensive",
+    "difficulty": "Sulit",
+    "videoUrl": "https://res.cloudinary.com/d4lu46yz/video/upload/question-28.mp4",
+    "question": "Bagaimana Striker mengambil keputusan?",
+    "hintText": "Tetap Pada Posisi",
+    "hintTargetOptionId": "d",
+    "options": [
+      {
+        "id": "a",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q28-answer-a-v2.png",
+        "points": 3,
+        "label": "Opsi A",
+        "action": "move"
+      },
+      {
+        "id": "b",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q28-answer-b-v2.png",
+        "points": 4,
+        "label": "Opsi B",
+        "action": "move"
+      },
+      {
+        "id": "c",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q28-answer-c-v2.png",
+        "points": 1,
+        "label": "Opsi C",
+        "action": "move"
+      },
+      {
+        "id": "d",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q28-answer-d-v2.png",
+        "points": 2,
+        "label": "Opsi D",
+        "action": "stay"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "category": "offensive",
+    "difficulty": "Sulit",
+    "videoUrl": "https://res.cloudinary.com/d4lu46yz/video/upload/question-29.mp4",
+    "question": "Bagaimana Center Back mengambil keputusan?",
+    "hintText": "Tetap Pada Posisi",
+    "hintTargetOptionId": "b",
+    "options": [
+      {
+        "id": "a",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q29-answer-a-v2.png",
+        "points": 4,
+        "label": "Opsi A",
+        "action": "move"
+      },
+      {
+        "id": "b",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q29-answer-b-v2.png",
+        "points": 3,
+        "label": "Opsi B",
+        "action": "stay"
+      },
+      {
+        "id": "c",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q29-answer-c-v2.png",
+        "points": 1,
+        "label": "Opsi C",
+        "action": "move"
+      },
+      {
+        "id": "d",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q29-answer-d-v2.png",
+        "points": 2,
+        "label": "Opsi D",
+        "action": "move"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "category": "offensive",
+    "difficulty": "Sedang",
+    "videoUrl": "https://res.cloudinary.com/d4lu46yz/video/upload/question-30.mp4",
+    "question": "Bagaimana Left Back mengambil keputusan?",
+    "hintText": "Tetap Pada Posisi",
+    "hintTargetOptionId": "d",
+    "options": [
+      {
+        "id": "a",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q30-answer-a-v2.png",
+        "points": 3,
+        "label": "Opsi A",
+        "action": "move"
+      },
+      {
+        "id": "b",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q30-answer-b-v2.png",
+        "points": 4,
+        "label": "Opsi B",
+        "action": "move"
+      },
+      {
+        "id": "c",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q30-answer-c-v2.png",
+        "points": 1,
+        "label": "Opsi C",
+        "action": "move"
+      },
+      {
+        "id": "d",
+        "imageUrl": "https://res.cloudinary.com/d4lu46yz/image/upload/f_webp,q_auto:good,q_60,w_800/q30-answer-d-v2.png",
+        "points": 2,
+        "label": "Opsi D",
+        "action": "stay"
+      }
+    ]
+  }
+]

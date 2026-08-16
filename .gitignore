@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# project notes + unused template
+LAYOUT.md
+TASKS.md
+data/questions.template.json
