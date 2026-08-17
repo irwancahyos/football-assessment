@@ -45,7 +45,7 @@ export default function AboutPage() {
           className="flex gap-3 overflow-x-auto snap-x snap-mandatory pb-2 sm:grid sm:grid-cols-2 lg:grid-cols-4 sm:gap-4 sm:overflow-visible sm:pb-0 mb-8 sm:mb-10"
         >
           {features.map((feat) => (
-            <div key={feat.titleKey} className="w-[60%] min-w-[60%] sm:w-auto sm:min-w-0 snap-center shrink-0 bg-accent/5 border-accent/40 rounded-xl px-4 py-5 text-center border transition-all duration-200 hover:shadow-lg hover:shadow-accent/15">
+            <div key={feat.titleKey} className="w-[60%] min-w-[60%] sm:w-auto sm:min-w-0 snap-center shrink-0 bg-accent/5 border-accent/40 rounded-xl px-4 py-8 sm:py-5 text-center border transition-all duration-200 hover:shadow-lg hover:shadow-accent/15">
               <feat.icon className="w-8 h-8 text-accent mx-auto mb-3" />
               <p className="font-heading text-accent text-lg mb-2">{t(feat.titleKey)}</p>
               <p className="text-accent text-sm leading-relaxed">{t(feat.descKey)}</p>
