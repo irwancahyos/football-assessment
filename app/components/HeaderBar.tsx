@@ -75,16 +75,16 @@ export default function HeaderBar({
       {/* ==== MOBILE dropdown: floats OVER the bar, doesn't extend bar height ==== */}
       {open && (
         <div className="sm:hidden fixed top-14 right-4 z-50 flex flex-col items-end gap-2">
-          <div className="relative flex rounded-full bg-white/20 backdrop-blur p-1 w-[7.5rem] h-10 shadow-lg border border-white/10">
+          <div className="relative flex rounded-full bg-accent p-1 w-[7.5rem] h-10 shadow-lg">
             <span
-              className={`absolute top-1 bottom-1 left-1 w-14 rounded-full bg-accent transition-transform duration-300 ease-out ${
+              className={`absolute top-1 bottom-1 left-1 w-14 rounded-full bg-primary transition-transform duration-300 ease-out ${
                 lang === 'en' ? 'translate-x-14' : 'translate-x-0'
               }`}
             />
             <button
               onClick={() => setLang('id')}
               className={`relative z-10 flex-1 py-1 text-center font-heading text-sm transition-colors ${
-                lang === 'id' ? 'text-primary' : 'text-accent/70'
+                lang === 'id' ? 'text-accent' : 'text-primary/80'
               }`}
             >
               ID
@@ -92,7 +92,7 @@ export default function HeaderBar({
             <button
               onClick={() => setLang('en')}
               className={`relative z-10 flex-1 py-1 text-center font-heading text-sm transition-colors ${
-                lang === 'en' ? 'text-primary' : 'text-accent/70'
+                lang === 'en' ? 'text-accent' : 'text-primary/80'
               }`}
             >
               EN
@@ -115,7 +115,7 @@ export default function HeaderBar({
                 dispatch({ type: 'RESET' });
                 router.push('/profile');
               }}
-              className="w-[7.5rem] h-10 flex items-center justify-center gap-2 glass-strong text-accent font-heading text-sm px-4 rounded-full shadow-lg hover:bg-white/20 transition-all"
+              className="w-[7.5rem] h-10 flex items-center justify-center gap-2 bg-accent/90 text-primary font-heading text-sm px-4 rounded-full shadow-lg hover:bg-accent transition-all"
             >
               <RotateCcw className="w-4 h-4" />
               {t('menu.newTest')}
@@ -140,16 +140,16 @@ export default function HeaderBar({
       <div className="hidden sm:flex fixed bottom-4 left-4 z-50 flex-col items-start gap-2">
         {open && (
           <div className="flex flex-col items-start gap-2">
-            <div className="relative flex rounded-full bg-white/15 backdrop-blur p-1 w-[7.5rem] h-10 shadow-lg border border-white/10">
+            <div className="relative flex rounded-full bg-accent p-1 w-[7.5rem] h-10 shadow-lg">
               <span
-                className={`absolute top-1 bottom-1 left-1 w-14 rounded-full bg-accent transition-transform duration-300 ease-out ${
+                className={`absolute top-1 bottom-1 left-1 w-14 rounded-full bg-primary transition-transform duration-300 ease-out ${
                   lang === 'en' ? 'translate-x-14' : 'translate-x-0'
                 }`}
               />
               <button
                 onClick={() => setLang('id')}
                 className={`relative z-10 flex-1 py-1 text-center font-heading text-sm transition-colors ${
-                  lang === 'id' ? 'text-primary' : 'text-accent/70'
+                  lang === 'id' ? 'text-accent' : 'text-primary/80'
                 }`}
               >
                 ID
@@ -157,7 +157,7 @@ export default function HeaderBar({
               <button
                 onClick={() => setLang('en')}
                 className={`relative z-10 flex-1 py-1 text-center font-heading text-sm transition-colors ${
-                  lang === 'en' ? 'text-primary' : 'text-accent/70'
+                  lang === 'en' ? 'text-accent' : 'text-primary/80'
                 }`}
               >
                 EN
@@ -180,7 +180,7 @@ export default function HeaderBar({
                   dispatch({ type: 'RESET' });
                   router.push('/profile');
                 }}
-                className="w-[7.5rem] h-10 flex items-center justify-center gap-2 glass-strong text-accent font-heading text-sm px-4 rounded-full shadow-lg hover:bg-white/20 transition-all"
+                className="w-[7.5rem] h-10 flex items-center justify-center gap-2 bg-accent/90 text-primary font-heading text-sm px-4 rounded-full shadow-lg hover:bg-accent transition-all"
               >
                 <RotateCcw className="w-4 h-4" />
                 {t('menu.newTest')}
