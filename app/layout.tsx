@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Bebas_Neue, Inter, Geist } from "next/font/google";
 import { AssessmentProvider } from "@/lib/assessment-context";
 import { I18nProvider } from "@/lib/i18n";
@@ -21,6 +21,10 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Football IQ Assessment",
   description: "Ukuran kemampuan membaca permainan sepak bola kamu",
+};
+
+export const viewport: Viewport = {
+  themeColor: "#FAD707",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

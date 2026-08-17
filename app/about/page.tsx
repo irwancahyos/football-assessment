@@ -24,7 +24,7 @@ export default function AboutPage() {
         <div className="absolute bottom-[-15%] left-[-10%] w-80 h-80 rounded-full bg-accent/15 blur-[100px]" />
       </div>
 
-      <div className="relative z-10 w-full max-w-3xl mx-auto text-center flex-1 flex flex-col justify-end sm:justify-center">
+      <div className="relative z-10 w-full max-w-3xl mx-auto text-center flex-1 flex flex-col justify-center">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}

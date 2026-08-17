@@ -22,19 +22,16 @@ export default function AnswerPage() {
     if (!question) router.replace('/');
   }, [question, router]);
 
-  // countdown
+  // countdown — deadline-based so the bar reaches 0 exactly when time runs out
   useEffect(() => {
     setTimeLeft(QUESTION_TIME);
     handledRef.current = false;
+    const deadline = Date.now() + QUESTION_TIME * 1000;
     const id = setInterval(() => {
-      setTimeLeft((prev) => {
-        if (prev <= 1) {
-          clearInterval(id);
-          return 0;
-        }
-        return prev - 1;
-      });
-    }, 1000);
+      const remaining = deadline - Date.now();
+      setTimeLeft(remaining <= 0 ? 0 : remaining / 1000);
+      if (remaining <= 0) clearInterval(id);
+    }, 100);
     return () => clearInterval(id);
   }, []);
 
@@ -107,7 +104,7 @@ export default function AnswerPage() {
           {/* Timer bar — red, shrinking */}
           <div className="w-full h-2 bg-black/20 rounded-full overflow-hidden mt-4">
             <div
-              className="h-full bg-red-500 rounded-full transition-all duration-1000 ease-linear"
+              className="h-full bg-red-500 rounded-full transition-all duration-100 ease-linear"
               style={{ width: `${(timeLeft / QUESTION_TIME) * 100}%` }}
             />
           </div>

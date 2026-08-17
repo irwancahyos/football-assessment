@@ -4,7 +4,7 @@ import { useRouter } from 'next/navigation';
 import { ChevronRight } from 'lucide-react';
 import { motion } from 'motion/react';
 import { useI18n } from '@/lib/i18n';
-import FloatingMenu from '@/app/components/FloatingMenu';
+import LanguageSwitcher from '@/app/components/LanguageSwitcher';
 
 export default function Landing() {
   const router = useRouter();
@@ -53,7 +53,7 @@ export default function Landing() {
         </motion.div>
       </div>
 
-      <FloatingMenu variant="lang-only" position="bottom" />
+      <LanguageSwitcher />
     </div>
   );
 }
