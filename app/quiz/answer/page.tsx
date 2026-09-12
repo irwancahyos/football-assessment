@@ -7,7 +7,7 @@ import { questions } from '@/data/questions';
 import FloatingMenu from '@/app/components/FloatingMenu';
 import { useI18n } from '@/lib/i18n';
 
-const QUESTION_TIME = 7; // seconds
+const QUESTION_TIME = 20; // seconds
 
 export default function AnswerPage() {
   const router = useRouter();
@@ -15,6 +15,7 @@ export default function AnswerPage() {
   const { t, lang } = useI18n();
   const [timeLeft, setTimeLeft] = useState(QUESTION_TIME);
   const handledRef = useRef(false);
+  const tickAudioRef = useRef<HTMLAudioElement | null>(null);
 
   const question = questions[state.currentQuestion];
 
@@ -32,7 +33,16 @@ export default function AnswerPage() {
       setTimeLeft(remaining <= 0 ? 0 : remaining / 1000);
       if (remaining <= 0) clearInterval(id);
     }, 100);
-    return () => clearInterval(id);
+
+    const audio = new Audio('/sounds/tick-new.mp3');
+    audio.loop = true;
+    tickAudioRef.current = audio;
+    audio.play().catch(() => {});
+
+    return () => {
+      clearInterval(id);
+      audio.pause();
+    };
   }, []);
 
   const goNext = () => {
@@ -93,8 +103,8 @@ export default function AnswerPage() {
           </div>
         </div>
 
-        {/* Question + timer — fixed (not scrollable) */}
-        <div className="px-6 pt-3 pb-1 shrink-0">
+        {/* Question + timer — constrained, centered */}
+        <div className="mx-auto w-full max-w-4xl px-6 pt-3 pb-1 shrink-0">
           <div className="glass rounded-xl px-6 py-4">
             <p className="font-heading text-accent text-xl leading-snug wrap-break-word">
               {question.question}
@@ -110,14 +120,14 @@ export default function AnswerPage() {
           </div>
         </div>
 
-        {/* Answers — scrollable (mobile) / 2x2 grid (desktop) */}
-        <div className="flex-1 min-h-0 overflow-y-auto px-6 py-4">
-          <div className="flex flex-col sm:grid sm:grid-cols-2 sm:grid-rows-2 gap-3 sm:gap-3 sm:h-full">
+        {/* Answers — fill height, scrolls internally on mobile if overflow */}
+        <div className="flex-1 min-h-0 px-6 py-4 flex justify-center items-center overflow-hidden">
+          <div className="w-full h-full grid gap-4 auto-rows-max overflow-y-auto -m-1 p-1 sm:h-auto sm:w-full sm:max-w-6xl sm:grid-cols-2 sm:auto-rows-max sm:overflow-visible">
             {question.options.map((opt) => (
               <button
                 key={opt.id}
                 onClick={() => submit(opt.id, opt.points)}
-                className="relative rounded-xl overflow-hidden transition-all glass hover:bg-white/15 hover:ring-2 hover:ring-accent/50 active:scale-[0.98] w-full aspect-video sm:aspect-auto sm:h-full"
+                className="relative rounded-xl overflow-hidden transition-all glass hover:bg-white/15 hover:ring-2 hover:ring-accent/50 active:scale-[0.98] min-h-0 w-full shrink-0 aspect-877/383 sm:aspect-auto sm:w-full sm:h-full"
               >
                 <img
                   src={opt.imageUrl}

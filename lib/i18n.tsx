@@ -46,7 +46,11 @@ const dict = {
   'form.rulesTitle': { id: 'PERATURAN ASESMEN', en: 'ASSESSMENT RULES' },
   'form.mustTitle': { id: 'Anda Harus :', en: 'You Must :' },
   'form.rule1': { id: 'Tandai keputusan terbaik untuk permainan', en: 'Mark the best decision for the play' },
-  'form.rule2': { id: 'Jawab secepat mungkin (Waktu 7 Detik)', en: 'Answer as fast as possible (7 seconds)' },
+  'form.rule2': { id: 'Jawab secepat mungkin (Waktu 20 Detik)', en: 'Answer as fast as possible (20 seconds)' },
+  'form.extraTitle': { id: 'Tambahan :', en: 'Additional :' },
+  'form.extra1': { id: 'Mengerjakan pada ruang kelas.', en: 'Take the test in a classroom.' },
+  'form.extra2': { id: 'Disediakan laptop atau hp.', en: 'A laptop or phone is provided.' },
+  'form.extra3': { id: 'Setelah selesai pelatih langsung mencatat hasil siswa.', en: 'After finishing, the coach directly records the student\'s result.' },
   'form.legendTitle': { id: 'Pahami tanda berikut ini :', en: 'Understand the following marks :' },
   'form.legend1': { id: 'Menunjukkan keputusan arah pergerakan / arah target passing', en: 'Indicates movement direction / passing target direction' },
   'form.legend2': { id: 'Menunjukkan keputusan arah dribbling', en: 'Indicates dribbling direction decision' },
@@ -76,8 +80,8 @@ const dict = {
   // Quiz start
   'quiz.ready': { id: 'SIAP?', en: 'READY?' },
   'quiz.readyDesc': {
-    id: 'Kamu sudah mencoba soal percobaan. Sekarang mulai asesmen yang sebenarnya. Ingat, setiap video hanya bisa diputar 1 kali dan kamu tidak bisa kembali ke soal sebelumnya.',
-    en: 'You have tried the trial question. Now start the real assessment. Remember, each video can only be played 1 time and you cannot go back to a previous question.',
+    id: 'Kamu sudah mencoba soal percobaan. Sekarang mulai asesmen yang sebenarnya. Ingat, setiap video hanya bisa diputar 2 kali dan kamu tidak bisa kembali ke soal sebelumnya.',
+    en: 'You have tried the trial question. Now start the real assessment. Remember, each video can only be played 2 times and you cannot go back to a previous question.',
   },
   'quiz.startBtn': { id: 'MULAI ASESMEN', en: 'START ASSESSMENT' },
 
@@ -86,6 +90,7 @@ const dict = {
 
   // Video player
   'video.finished': { id: 'VIDEO SELESAI', en: 'VIDEO FINISHED' },
+  'video.replay': { id: 'PUTAR LAGI', en: 'REPLAY' },
 
   // Result
   'result.title': { id: 'HASIL ASESMEN', en: 'ASSESSMENT RESULT' },

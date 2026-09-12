@@ -1,10 +1,10 @@
 'use client';
 
 import { useState, useRef, useEffect } from 'react';
-import { Play } from 'lucide-react';
+import { Play, RotateCcw, ChevronRight } from 'lucide-react';
 import { useI18n } from '@/lib/i18n';
 
-const MAX_PLAYS = 1;
+const MAX_PLAYS = 2;
 
 interface VideoPlayerProps {
   src: string;
@@ -16,14 +16,20 @@ export default function VideoPlayer({ src, onMaxPlays }: VideoPlayerProps) {
   const [playCount, setPlayCount] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
   const [progress, setProgress] = useState(0); // 0-100
+  const [showChoice, setShowChoice] = useState(false);
   const videoRef = useRef<HTMLVideoElement>(null);
   const endedRef = useRef(false);
 
-  const canPlay = playCount < MAX_PLAYS;
+  const canReplay = playCount < MAX_PLAYS;
 
-  const handlePlay = () => {
-    if (!canPlay || !videoRef.current) return;
-    videoRef.current.play();
+  const play = () => {
+    const v = videoRef.current;
+    if (!v) return;
+    if (v.currentTime >= v.duration) v.currentTime = 0;
+    setProgress(0);
+    setShowChoice(false);
+    endedRef.current = false;
+    v.play();
     setIsPlaying(true);
   };
 
@@ -38,14 +44,15 @@ export default function VideoPlayer({ src, onMaxPlays }: VideoPlayerProps) {
     endedRef.current = true;
     setIsPlaying(false);
     setProgress(100);
-    setPlayCount(MAX_PLAYS);
-    onMaxPlays();
+    setPlayCount((c) => c + 1);
+    setShowChoice(true);
   };
 
   useEffect(() => {
     setPlayCount(0);
     setIsPlaying(false);
     setProgress(0);
+    setShowChoice(false);
     endedRef.current = false;
   }, [src]);
 
@@ -69,10 +76,10 @@ export default function VideoPlayer({ src, onMaxPlays }: VideoPlayerProps) {
           {playCount}/{MAX_PLAYS}
         </span>
 
-        {/* Play button overlay */}
-        {!isPlaying && canPlay && (
+        {/* Initial play button */}
+        {!isPlaying && !showChoice && (
           <button
-            onClick={handlePlay}
+            onClick={play}
             className="absolute inset-0 flex items-center justify-center bg-black/20 hover:bg-black/30 transition-colors"
           >
             <span className="bg-accent text-primary font-heading text-3xl w-14 h-14 rounded-full flex items-center justify-center hover:scale-105 transition-transform">
@@ -81,10 +88,27 @@ export default function VideoPlayer({ src, onMaxPlays }: VideoPlayerProps) {
           </button>
         )}
 
-        {/* Max plays reached */}
-        {!canPlay && !isPlaying && (
-          <div className="absolute inset-0 flex items-center justify-center bg-black/40">
-            <span className="text-white font-heading text-xl">{t('video.finished')}</span>
+        {/* Choice after a play ends — mobile: replay floats corner + answer full width; desktop: both inline */}
+        {showChoice && !isPlaying && (
+          <div className="absolute inset-0 bg-black/40 px-3 py-3 flex items-center justify-center">
+            <div className="flex items-center sm:items-stretch gap-3 w-full sm:w-auto px-1">
+              {canReplay && (
+                <button
+                  onClick={play}
+                  aria-label={t('video.replay')}
+                  className="w-14 h-14 rounded-full sm:self-stretch sm:h-auto sm:aspect-square sm:rounded-xl inline-flex shrink-0 items-center justify-center bg-accent text-primary hover:bg-accent/90 transition-all shadow-lg"
+                >
+                  <RotateCcw className="w-5 h-5" />
+                </button>
+              )}
+              <button
+                onClick={onMaxPlays}
+                className="inline-flex flex-1 sm:flex-none w-auto sm:w-auto items-center justify-center gap-2 bg-accent text-primary font-heading text-base sm:text-lg px-6 py-3.5 rounded-xl hover:bg-accent/90 transition-all whitespace-nowrap shadow-lg"
+              >
+                {t('quiz.answerBtn')}
+                <ChevronRight className="w-5 h-5 shrink-0 stroke-3" />
+              </button>
+            </div>
           </div>
         )}
       </div>

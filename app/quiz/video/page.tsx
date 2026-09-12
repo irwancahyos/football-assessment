@@ -1,19 +1,17 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { useAssessment } from '@/lib/assessment-context';
 import { questions } from '@/data/questions';
 import VideoPlayer from '@/app/components/VideoPlayer';
 import FloatingMenu from '@/app/components/FloatingMenu';
-import { ChevronRight } from 'lucide-react';
 import { useI18n } from '@/lib/i18n';
 
 export default function VideoQuestionPage() {
   const router = useRouter();
   const { state } = useAssessment();
   const { t } = useI18n();
-  const [videoDone, setVideoDone] = useState(false);
 
   const question = questions[state.currentQuestion];
 
@@ -48,38 +46,12 @@ export default function VideoQuestionPage() {
         </div>
 
         {/* Video */}
-        {!videoDone && (
-          <div className="flex-1 flex items-center px-6 py-4">
-            <VideoPlayer
-              src={question.videoUrl}
-              onMaxPlays={() => setVideoDone(true)}
-            />
-          </div>
-        )}
-
-        {/* Answer button over video backdrop */}
-        {videoDone && (
-          <div className="flex-1 flex items-center justify-center px-6 py-4">
-            <div className="relative w-full max-w-4xl aspect-video glass rounded-xl overflow-hidden">
-              <video
-                src={question.videoUrl}
-                className="w-full h-full object-contain opacity-30"
-                playsInline
-                muted
-                preload="none"
-              />
-              <div className="absolute inset-0 flex items-center justify-center bg-black/30">
-                <button
-                  onClick={() => router.push('/quiz/answer')}
-                  className="inline-flex items-center gap-2 bg-accent text-primary font-heading text-xl px-8 py-4 rounded-xl hover:bg-accent/90 transition-all hover:scale-[1.02] active:scale-[0.98] shadow-lg"
-                >
-                  {t('quiz.answerBtn')}
-                  <ChevronRight className="w-6 h-6 shrink-0 stroke-3" />
-                </button>
-              </div>
-            </div>
-          </div>
-        )}
+        <div className="flex-1 flex items-center px-6 py-4">
+          <VideoPlayer
+            src={question.videoUrl}
+            onMaxPlays={() => router.push('/quiz/answer')}
+          />
+        </div>
       </div>
 
       <FloatingMenu />

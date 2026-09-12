@@ -5,14 +5,12 @@ import { useRouter } from 'next/navigation';
 import { trialQuestion } from '@/data/trial';
 import VideoPlayer from '../components/VideoPlayer';
 import FloatingMenu from '../components/FloatingMenu';
-import { ChevronRight } from 'lucide-react';
 import { useI18n } from '@/lib/i18n';
 
 export default function TrialPage() {
   const router = useRouter();
   const { t } = useI18n();
   const [showQuestion, setShowQuestion] = useState(false);
-  const [videoDone, setVideoDone] = useState(false);
 
   const handleAnswer = () => {
     router.push('/quiz/start');
@@ -35,36 +33,12 @@ export default function TrialPage() {
         </div>
 
         {/* Video */}
-        {!showQuestion && !videoDone && (
+        {!showQuestion && (
           <div className="flex-1 flex items-center px-6 py-4">
             <VideoPlayer
               src={trialQuestion.videoUrl}
-              onMaxPlays={() => setVideoDone(true)}
+              onMaxPlays={() => setShowQuestion(true)}
             />
-          </div>
-        )}
-
-        {/* Answer button over video backdrop */}
-        {videoDone && !showQuestion && (
-          <div className="flex-1 flex items-center justify-center px-6 py-4">
-            <div className="relative w-full max-w-4xl aspect-video glass rounded-xl overflow-hidden">
-              <video
-                src={trialQuestion.videoUrl}
-                className="w-full h-full object-contain opacity-30"
-                playsInline
-                muted
-                preload="none"
-              />
-              <div className="absolute inset-0 flex items-center justify-center bg-black/30">
-                <button
-                  onClick={() => setShowQuestion(true)}
-                  className="inline-flex items-center gap-2 bg-accent text-primary font-heading text-xl px-8 py-4 rounded-xl hover:bg-accent/90 transition-all hover:scale-[1.02] active:scale-[0.98] shadow-lg"
-                >
-                  {t('quiz.answerBtn')}
-                  <ChevronRight className="w-6 h-6 shrink-0 stroke-3" />
-                </button>
-              </div>
-            </div>
           </div>
         )}
 
@@ -80,14 +54,14 @@ export default function TrialPage() {
               </div>
             </div>
 
-            {/* Answers — scrollable (mobile) / 2x2 grid (desktop) */}
-            <div className="flex-1 min-h-0 overflow-y-auto px-6 py-4">
-              <div className="flex flex-col sm:grid sm:grid-cols-2 sm:grid-rows-2 gap-3 sm:h-full">
+            {/* Answers — fill height, scrolls internally on mobile if overflow */}
+            <div className="flex-1 min-h-0 px-6 py-4 flex justify-center items-center overflow-hidden">
+              <div className="w-full h-full grid gap-4 auto-rows-max overflow-y-auto -m-1 p-1 sm:h-auto sm:w-full sm:max-w-6xl sm:grid-cols-2 sm:auto-rows-max sm:overflow-visible">
                 {trialQuestion.options.map((opt) => (
                   <button
                     key={opt.id}
                     onClick={handleAnswer}
-                    className="relative rounded-xl overflow-hidden transition-all glass hover:bg-white/15 hover:ring-2 hover:ring-accent/50 active:scale-[0.98] w-full aspect-video sm:aspect-auto sm:h-full"
+                    className="relative rounded-xl overflow-hidden transition-all glass hover:bg-white/15 hover:ring-2 hover:ring-accent/50 active:scale-[0.98] min-h-0 w-full shrink-0 aspect-877/383 sm:aspect-auto sm:w-full sm:h-full"
                   >
                     <img
                       src={opt.imageUrl}
