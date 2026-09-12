@@ -34,7 +34,7 @@ export default function AnswerPage() {
       if (remaining <= 0) clearInterval(id);
     }, 100);
 
-    const audio = new Audio('/sounds/tick-new.mp3');
+    const audio = new Audio('/sounds/tick-loop-new.wav');
     audio.loop = true;
     tickAudioRef.current = audio;
     audio.play().catch(() => {});
