@@ -3,7 +3,7 @@
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { useAssessment } from '@/lib/assessment-context';
-import { questions } from '@/data/questions';
+import { questions, getQuestion } from '@/data/questions';
 import VideoPlayer from '@/app/components/VideoPlayer';
 import FloatingMenu from '@/app/components/FloatingMenu';
 import { useI18n } from '@/lib/i18n';
@@ -13,7 +13,7 @@ export default function VideoQuestionPage() {
   const { state } = useAssessment();
   const { t } = useI18n();
 
-  const question = questions[state.currentQuestion];
+  const question = getQuestion(state.questionOrder, state.currentQuestion);
 
   useEffect(() => {
     if (!question) router.replace('/');

@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { useAssessment } from '@/lib/assessment-context';
-import { questions } from '@/data/questions';
+import { questions, getQuestion } from '@/data/questions';
 import FloatingMenu from '@/app/components/FloatingMenu';
 import { useI18n } from '@/lib/i18n';
 
@@ -17,7 +17,7 @@ export default function AnswerPage() {
   const handledRef = useRef(false);
   const tickAudioRef = useRef<HTMLAudioElement | null>(null);
 
-  const question = questions[state.currentQuestion];
+  const question = getQuestion(state.questionOrder, state.currentQuestion);
 
   useEffect(() => {
     if (!question) router.replace('/');
@@ -60,7 +60,7 @@ export default function AnswerPage() {
     handledRef.current = true;
     dispatch({
       type: 'ANSWER_QUESTION',
-      answer: { questionId: question.id, selectedOption: optionId, points },
+      answer: { questionId: question!.id, selectedOption: optionId, points },
     });
     goNext();
   };
@@ -71,7 +71,7 @@ export default function AnswerPage() {
       handledRef.current = true;
       dispatch({
         type: 'ANSWER_QUESTION',
-        answer: { questionId: question.id, selectedOption: '', points: 0 },
+        answer: { questionId: question!.id, selectedOption: '', points: 0 },
       });
       goNext();
     }

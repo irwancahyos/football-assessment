@@ -44,6 +44,7 @@ export interface AssessmentState {
   foot: Foot | null;
   birthYear: number | null;
   currentQuestion: number;
+  questionOrder: number[]; // shuffled indices into the questions array
   answers: Answer[];
   videoPlayCount: number;
 }
