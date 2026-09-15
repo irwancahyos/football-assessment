@@ -44,3 +44,6 @@ next-env.d.ts
 LAYOUT.md
 TASKS.md
 data/questions.template.json
+
+# Cloudflare Pages local files
+.wrangler
