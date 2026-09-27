@@ -75,6 +75,7 @@ export default function TrialPage() {
                 ))}
               </div>
             </div>
+
           </>
         )}
       </div>

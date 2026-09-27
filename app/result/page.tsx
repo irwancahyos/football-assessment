@@ -12,7 +12,7 @@ import { useI18n } from '@/lib/i18n';
 
 const categoryColors: Record<Category, string> = {
   offensive: '#e03131',
-  defensive: '#1f2e6c',
+  defensive: '#1f4a93', // ponytail: alt blue trial — revert to #1f2e6c to restore.
 };
 
 const CENTER = 180;

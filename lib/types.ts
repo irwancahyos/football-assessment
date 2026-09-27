@@ -47,4 +47,5 @@ export interface AssessmentState {
   questionOrder: number[]; // shuffled indices into the questions array
   answers: Answer[];
   videoPlayCount: number;
+  runStarted: boolean; // true only after MULAI ASESMEN with a verified token
 }

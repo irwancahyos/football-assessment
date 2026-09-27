@@ -8,7 +8,8 @@
   /* App colors */
   /* backups: #fdfb44, #f4d800 */
   --color-primary: #FAD707;
-  --color-accent: #1f2e6c;
+  /* ponytail: alt blue trial — revert to #1f2e6c to restore. */
+  --color-accent: #1f4a93;
   --color-white: #ffffff;
   --color-background: #FAD707;
   --color-foreground: #ffffff;

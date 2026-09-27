@@ -4,7 +4,7 @@ import { useState, useRef, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { useAssessment } from '@/lib/assessment-context';
 import { Position, Foot } from '@/lib/types';
-import { ChevronRight, Info, ChevronDown } from 'lucide-react';
+import { ChevronRight, Info, ChevronDown, ChevronUp } from 'lucide-react';
 import HeaderBar from '@/app/components/HeaderBar';
 import { useI18n } from '@/lib/i18n';
 
@@ -36,6 +36,7 @@ export default function ProfilePage() {
   const [selectedYear, setSelectedYear] = useState<number | null>(null);
   const [yearOpen, setYearOpen] = useState(false);
   const yearRef = useRef<HTMLDivElement>(null);
+  const [showScrollTop, setShowScrollTop] = useState(false);
 
   const isValid = selectedPosition && selectedFoot && selectedYear;
 
@@ -46,6 +47,24 @@ export default function ProfilePage() {
     };
     document.addEventListener('mousedown', handler);
     return () => document.removeEventListener('mousedown', handler);
+  }, []);
+
+  // ponytail: mobile only — sit at top briefly, then smooth-scroll to the rules.
+  useEffect(() => {
+    if (window.innerWidth >= 1024) return;
+    window.scrollTo(0, 0);
+    const id = setTimeout(() => {
+      window.scrollTo({ top: document.documentElement.scrollHeight, behavior: 'smooth' });
+    }, 350);
+    return () => clearTimeout(id);
+  }, []);
+
+  // show the scroll-to-top hint while scrolled down; hide near the top
+  useEffect(() => {
+    const onScroll = () => setShowScrollTop(window.scrollY > 120);
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
   const handleNext = () => {
@@ -67,12 +86,13 @@ export default function ProfilePage() {
         {/* Layout: rules card (left, tall) + form (right) on desktop */}
         <div className="grid grid-cols-1 lg:grid-cols-[4fr_6fr] gap-6 lg:gap-8 items-stretch">
           {/* Rules — left, tall card with bg */}
-          <div className="order-2 lg:order-1 bg-accent/10 border border-accent/20 rounded-xl px-5 py-6 text-left self-stretch lg:min-h-[480px] flex flex-col justify-center">
+          <div className="order-2 lg:order-1 bg-accent/5 border border-accent/20 rounded-xl px-5 py-6 text-left self-stretch lg:min-h-[480px] flex flex-col justify-center">
             <div className="flex items-center gap-2 mb-4">
               <Info className="w-5 h-5 text-accent" />
               <p className="font-heading text-accent text-lg">{t('form.rulesTitle')}</p>
             </div>
-            <div className="space-y-3 text-sm text-accent/80">
+            {/* ponytail: solid accent — /80 looked off-yellow over the yellow bg; restore text-accent/80 with the blue revert if wanted. */}
+            <div className="space-y-3 text-sm text-accent">
               <p className="font-heading text-accent text-base mb-1">{t('form.mustTitle')}</p>
               <div className="space-y-1.5">
                 <div className="flex gap-2 items-start"><span className="text-accent shrink-0">•</span><span>{t('form.rule1')}</span></div>
@@ -127,10 +147,11 @@ export default function ProfilePage() {
                     {/* spotlight cone filling width */}
                     <path d="M12 0h12l8 19H4L12 0z" fill="#FAD707" />
                     {/* player figure inside the beam */}
-                    <circle cx="16" cy="10" r="3" fill="#1f2e6c" />
-                    <path d="M16 13v4M16 15l-4 2.6M16 15l4.5 1.2" stroke="#1f2e6c" strokeWidth="2.3" strokeLinecap="round" fill="none" />
+                    {/* ponytail: alt blue trial — revert to #1f2e6c to restore. */}
+                    <circle cx="16" cy="10" r="3" fill="#1f4a93" />
+                    <path d="M16 13v4M16 15l-4 2.6M16 15l4.5 1.2" stroke="#1f4a93" strokeWidth="2.3" strokeLinecap="round" fill="none" />
                     {/* ball */}
-                    <circle cx="24" cy="18" r="2.2" fill="#1f2e6c" />
+                    <circle cx="24" cy="18" r="2.2" fill="#1f4a93" />
                   </svg>
                 </span>
                 <span>{t('form.markedNote')}</span>
@@ -241,6 +262,18 @@ export default function ProfilePage() {
           </div>
         </div>
       </div>
+
+      {/* Mobile scroll-to-top hint — pulses while scrolled down, hides at top */}
+      {showScrollTop && (
+        <button
+          type="button"
+          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+          aria-label={t('form.scrollTop')}
+          className="lg:hidden fixed bottom-5 right-5 z-40 flex h-10 w-10 items-center justify-center rounded-full bg-accent text-primary shadow-lg animate-bounce"
+        >
+          <ChevronUp className="h-5 w-5" />
+        </button>
+      )}
 
       <HeaderBar variant="lang-home" backTo="/about" />
     </div>

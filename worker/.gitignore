@@ -1,0 +1,3 @@
+# fdma-api worker
+node_modules/
+.dev.vars

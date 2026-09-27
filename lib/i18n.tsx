@@ -43,6 +43,7 @@ const dict = {
   'form.foot': { id: 'KAKI DOMINAN', en: 'DOMINANT FOOT' },
   'form.year': { id: 'TAHUN KELAHIRAN', en: 'YEAR OF BIRTH' },
   'form.pickYear': { id: 'PILIH TAHUN', en: 'SELECT YEAR' },
+  'form.scrollTop': { id: 'Gulir ke atas', en: 'Scroll to top' },
   'form.rulesTitle': { id: 'PERATURAN ASESMEN', en: 'ASSESSMENT RULES' },
   'form.mustTitle': { id: 'Anda Harus :', en: 'You Must :' },
   'form.rule1': { id: 'Tandai keputusan terbaik untuk permainan', en: 'Mark the best decision for the play' },
@@ -76,6 +77,25 @@ const dict = {
     en: 'What should the marked player do?',
   },
   'quiz.answerBtn': { id: 'JAWAB PERTANYAAN', en: 'ANSWER THE QUESTION' },
+
+  // Private assessment access
+  'access.blockedTitle': { id: 'Opssss!!!', en: 'Oops!!!' },
+  'access.blockedDescription': {
+    id: 'Untuk melanjutkan assessment, silakan hubungi admin terlebih dahulu.',
+    en: 'Please contact the admin before continuing the assessment.',
+  },
+  'access.contactAdmin': { id: 'HUBUNGI ADMIN VIA TELEGRAM', en: 'CONTACT ADMIN ON TELEGRAM' },
+  'access.copy': { id: 'SALIN', en: 'COPY' },
+  'access.copied': { id: 'TERSALIN', en: 'COPIED' },
+  'access.close': { id: 'TUTUP', en: 'CLOSE' },
+  'access.privateNotice': { id: 'Assessment ini bersifat privat.', en: 'This assessment is private.' },
+  'access.checking': { id: 'Memeriksa akses...', en: 'Checking access...' },
+  'access.invalidTitle': { id: 'Akses Ditolak', en: 'Access Denied' },
+  'access.invalidDescription': {
+    id: 'Link akses tidak valid atau sudah dinonaktifkan. Silakan hubungi admin untuk mendapatkan link baru.',
+    en: 'This access link is invalid or has been deactivated. Please contact the admin for a new link.',
+  },
+  'access.continue': { id: 'LANJUTKAN', en: 'CONTINUE' },
 
   // Quiz start
   'quiz.ready': { id: 'SIAP?', en: 'READY?' },

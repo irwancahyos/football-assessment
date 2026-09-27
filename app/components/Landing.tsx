@@ -1,14 +1,21 @@
 'use client';
 
+import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { ChevronRight } from 'lucide-react';
 import { motion } from 'motion/react';
 import { useI18n } from '@/lib/i18n';
+import { captureTokenFromUrl } from '@/lib/access';
 import LanguageSwitcher from '@/app/components/LanguageSwitcher';
 
 export default function Landing() {
   const router = useRouter();
   const { t } = useI18n();
+
+  // Capture access key (?k=...) once on landing, store it for the quiz flow.
+  useEffect(() => {
+    captureTokenFromUrl();
+  }, []);
 
   return (
     <div className="relative min-h-screen flex items-center justify-center overflow-hidden">

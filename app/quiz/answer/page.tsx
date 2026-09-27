@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import { useAssessment } from '@/lib/assessment-context';
 import { questions, getQuestion } from '@/data/questions';
 import FloatingMenu from '@/app/components/FloatingMenu';
+import { useAccessGuard } from '@/lib/use-access-guard';
 import { useI18n } from '@/lib/i18n';
 
 const QUESTION_TIME = 20; // seconds
@@ -17,11 +18,13 @@ export default function AnswerPage() {
   const handledRef = useRef(false);
   const tickAudioRef = useRef<HTMLAudioElement | null>(null);
 
+  const access = useAccessGuard();
   const question = getQuestion(state.questionOrder, state.currentQuestion);
 
   useEffect(() => {
-    if (!question) router.replace('/');
-  }, [question, router]);
+    if (access !== 'valid') return; // guard redirects to /quiz/start on its own
+    if (!state.runStarted || !question) router.replace('/');
+  }, [access, state.runStarted, question, router]);
 
   // countdown — deadline-based so the bar reaches 0 exactly when time runs out
   useEffect(() => {
@@ -78,7 +81,7 @@ export default function AnswerPage() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [timeLeft]);
 
-  if (!question) return null;
+  if (access !== 'valid' || !state.runStarted || !question) return null;
 
   return (
     <div className="h-dvh bg-linear-to-br from-[#FAD707] via-[#f0cf00] to-[#FAD707] flex flex-col relative overflow-hidden">

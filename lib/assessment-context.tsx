@@ -13,6 +13,7 @@ type Action =
   | { type: 'RESET_PLAY_COUNT' }
   | { type: 'NEXT_QUESTION' }
   | { type: 'SHUFFLE_QUESTIONS' }
+  | { type: 'START_RUN' }
   | { type: 'RESET' };
 
 // Fisher–Yates shuffle, returns a fresh copy
@@ -36,6 +37,7 @@ function makeInitialState(): AssessmentState {
     questionOrder: questions.map((q) => q.id),
     answers: [],
     videoPlayCount: 0,
+    runStarted: false,
   };
 }
 
@@ -57,6 +59,15 @@ function reducer(state: AssessmentState, action: Action): AssessmentState {
       return { ...state, currentQuestion: state.currentQuestion + 1, videoPlayCount: 0 };
     case 'SHUFFLE_QUESTIONS':
       return { ...state, questionOrder: shuffle(questions.map((q) => q.id)) };
+    case 'START_RUN':
+      return {
+        ...makeInitialState(),
+        questionOrder: shuffle(questions.map((q) => q.id)),
+        position: state.position,
+        foot: state.foot,
+        birthYear: state.birthYear,
+        runStarted: true,
+      };
     case 'RESET':
       return { ...makeInitialState(), questionOrder: shuffle(questions.map((q) => q.id)) };
     default:

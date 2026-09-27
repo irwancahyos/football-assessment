@@ -1,0 +1,12 @@
+name = "fdma-api"
+main = "src/index.ts"
+compatibility_date = "2026-09-01"
+
+# Allowed frontend origin for POST /access/verify (set to your Pages domain).
+[vars]
+PUBLIC_APP_URL = "https://fdma.pages.dev"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "fdma-access"
+database_id = "99556680-2e0c-469d-bbc2-0ebe38cb0677"
