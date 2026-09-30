@@ -8,6 +8,7 @@
 
 const API_BASE = 'https://fdma-api.bchdims.workers.dev';
 const KEY = 'fdma_access_token';
+const DEV_BYPASS = process.env.NODE_ENV === 'development' && process.env.NEXT_PUBLIC_DEV_BYPASS === 'true';
 
 export type AccessState = 'checking' | 'valid' | 'invalid' | 'missing' | 'error';
 

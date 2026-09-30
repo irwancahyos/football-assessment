@@ -10,28 +10,28 @@
     "options": [
       {
         "id": "a",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q01/a.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q01/a.webp",
         "points": 4,
         "label": "Opsi A",
         "action": "move"
       },
       {
         "id": "b",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q01/b.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q01/b.webp",
         "points": 2,
         "label": "Opsi B",
         "action": "stay"
       },
       {
         "id": "c",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q01/c.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q01/c.webp",
         "points": 3,
         "label": "Opsi C",
         "action": "move"
       },
       {
         "id": "d",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q01/d.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q01/d.webp",
         "points": 1,
         "label": "Opsi D",
         "action": "move"
@@ -49,28 +49,28 @@
     "options": [
       {
         "id": "a",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q02/a.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q02/a.webp",
         "points": 2,
         "label": "Opsi A",
         "action": "move"
       },
       {
         "id": "b",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q02/b.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q02/b.webp",
         "points": 4,
         "label": "Opsi B",
         "action": "move"
       },
       {
         "id": "c",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q02/c.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q02/c.webp",
         "points": 3,
         "label": "Opsi C",
         "action": "move"
       },
       {
         "id": "d",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q02/d.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q02/d.webp",
         "points": 1,
         "label": "Opsi D",
         "action": "move"
@@ -88,28 +88,28 @@
     "options": [
       {
         "id": "a",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q03/a.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q03/a.webp",
         "points": 1,
         "label": "Opsi A",
         "action": "move"
       },
       {
         "id": "b",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q03/b.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q03/b.webp",
         "points": 2,
         "label": "Opsi B",
         "action": "stay"
       },
       {
         "id": "c",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q03/c.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q03/c.webp",
         "points": 4,
         "label": "Opsi C",
         "action": "move"
       },
       {
         "id": "d",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q03/d.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q03/d.webp",
         "points": 3,
         "label": "Opsi D",
         "action": "move"
@@ -127,28 +127,28 @@
     "options": [
       {
         "id": "a",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q04/a.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q04/a.webp",
         "points": 2,
         "label": "Opsi A",
         "action": "move"
       },
       {
         "id": "b",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q04/b.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q04/b.webp",
         "points": 4,
         "label": "Opsi B",
         "action": "move"
       },
       {
         "id": "c",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q04/c.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q04/c.webp",
         "points": 1,
         "label": "Opsi C",
         "action": "move"
       },
       {
         "id": "d",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q04/d.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q04/d.webp",
         "points": 3,
         "label": "Opsi D",
         "action": "stay"
@@ -166,28 +166,28 @@
     "options": [
       {
         "id": "a",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q05/a.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q05/a.webp",
         "points": 4,
         "label": "Opsi A",
         "action": "move"
       },
       {
         "id": "b",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q05/b.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q05/b.webp",
         "points": 3,
         "label": "Opsi B",
         "action": "move"
       },
       {
         "id": "c",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q05/c.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q05/c.webp",
         "points": 1,
         "label": "Opsi C",
         "action": "move"
       },
       {
         "id": "d",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q05/d.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q05/d.webp",
         "points": 2,
         "label": "Opsi D",
         "action": "move"
@@ -205,28 +205,28 @@
     "options": [
       {
         "id": "a",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q06/a.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q06/a.webp",
         "points": 1,
         "label": "Opsi A",
         "action": "move"
       },
       {
         "id": "b",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q06/b.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q06/b.webp",
         "points": 3,
         "label": "Opsi B",
         "action": "move"
       },
       {
         "id": "c",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q06/c.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q06/c.webp",
         "points": 2,
         "label": "Opsi C",
         "action": "stay"
       },
       {
         "id": "d",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q06/d.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q06/d.webp",
         "points": 4,
         "label": "Opsi D",
         "action": "move"
@@ -244,28 +244,28 @@
     "options": [
       {
         "id": "a",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q07/a.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q07/a.webp",
         "points": 4,
         "label": "Opsi A",
         "action": "move"
       },
       {
         "id": "b",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q07/b.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q07/b.webp",
         "points": 3,
         "label": "Opsi B",
         "action": "stay"
       },
       {
         "id": "c",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q07/c.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q07/c.webp",
         "points": 2,
         "label": "Opsi C",
         "action": "move"
       },
       {
         "id": "d",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q07/d.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q07/d.webp",
         "points": 1,
         "label": "Opsi D",
         "action": "move"
@@ -283,28 +283,28 @@
     "options": [
       {
         "id": "a",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q08/a.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q08/a.webp",
         "points": 3,
         "label": "Opsi A",
         "action": "move"
       },
       {
         "id": "b",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q08/b.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q08/b.webp",
         "points": 2,
         "label": "Opsi B",
         "action": "move"
       },
       {
         "id": "c",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q08/c.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q08/c.webp",
         "points": 4,
         "label": "Opsi C",
         "action": "move"
       },
       {
         "id": "d",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q08/d.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q08/d.webp",
         "points": 1,
         "label": "Opsi D",
         "action": "stay"
@@ -322,28 +322,28 @@
     "options": [
       {
         "id": "a",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q09/a.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q09/a.webp",
         "points": 3,
         "label": "Opsi A",
         "action": "stay"
       },
       {
         "id": "b",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q09/b.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q09/b.webp",
         "points": 1,
         "label": "Opsi B",
         "action": "move"
       },
       {
         "id": "c",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q09/c.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q09/c.webp",
         "points": 4,
         "label": "Opsi C",
         "action": "move"
       },
       {
         "id": "d",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q09/d.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q09/d.webp",
         "points": 2,
         "label": "Opsi D",
         "action": "move"
@@ -361,28 +361,28 @@
     "options": [
       {
         "id": "a",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q10/a.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q10/a.webp",
         "points": 1,
         "label": "Opsi A",
         "action": "move"
       },
       {
         "id": "b",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q10/b.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q10/b.webp",
         "points": 4,
         "label": "Opsi B",
         "action": "move"
       },
       {
         "id": "c",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q10/c.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q10/c.webp",
         "points": 3,
         "label": "Opsi C",
         "action": "move"
       },
       {
         "id": "d",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q10/d.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q10/d.webp",
         "points": 2,
         "label": "Opsi D",
         "action": "stay"
@@ -400,28 +400,28 @@
     "options": [
       {
         "id": "a",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q11/a.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q11/a.webp",
         "points": 4,
         "label": "Opsi A",
         "action": "move"
       },
       {
         "id": "b",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q11/b.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q11/b.webp",
         "points": 1,
         "label": "Opsi B",
         "action": "move"
       },
       {
         "id": "c",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q11/c.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q11/c.webp",
         "points": 3,
         "label": "Opsi C",
         "action": "stay"
       },
       {
         "id": "d",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q11/d.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q11/d.webp",
         "points": 2,
         "label": "Opsi D",
         "action": "move"
@@ -439,28 +439,28 @@
     "options": [
       {
         "id": "a",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q12/a.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q12/a.webp",
         "points": 3,
         "label": "Opsi A",
         "action": "stay"
       },
       {
         "id": "b",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q12/b.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q12/b.webp",
         "points": 2,
         "label": "Opsi B",
         "action": "move"
       },
       {
         "id": "c",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q12/c.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q12/c.webp",
         "points": 1,
         "label": "Opsi C",
         "action": "move"
       },
       {
         "id": "d",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q12/d.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q12/d.webp",
         "points": 4,
         "label": "Opsi D",
         "action": "move"
@@ -478,28 +478,28 @@
     "options": [
       {
         "id": "a",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q13/a.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q13/a.webp",
         "points": 4,
         "label": "Opsi A",
         "action": "stay"
       },
       {
         "id": "b",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q13/b.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q13/b.webp",
         "points": 1,
         "label": "Opsi B",
         "action": "move"
       },
       {
         "id": "c",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q13/c.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q13/c.webp",
         "points": 3,
         "label": "Opsi C",
         "action": "move"
       },
       {
         "id": "d",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q13/d.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q13/d.webp",
         "points": 2,
         "label": "Opsi D",
         "action": "move"
@@ -517,28 +517,28 @@
     "options": [
       {
         "id": "a",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q14/a.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q14/a.webp",
         "points": 3,
         "label": "Opsi A",
         "action": "move"
       },
       {
         "id": "b",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q14/b.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q14/b.webp",
         "points": 2,
         "label": "Opsi B",
         "action": "stay"
       },
       {
         "id": "c",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q14/c.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q14/c.webp",
         "points": 1,
         "label": "Opsi C",
         "action": "move"
       },
       {
         "id": "d",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q14/d.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q14/d.webp",
         "points": 4,
         "label": "Opsi D",
         "action": "move"
@@ -556,28 +556,28 @@
     "options": [
       {
         "id": "a",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q15/a.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q15/a.webp",
         "points": 3,
         "label": "Opsi A",
         "action": "stay"
       },
       {
         "id": "b",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q15/b.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q15/b.webp",
         "points": 4,
         "label": "Opsi B",
         "action": "move"
       },
       {
         "id": "c",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q15/c.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q15/c.webp",
         "points": 2,
         "label": "Opsi C",
         "action": "move"
       },
       {
         "id": "d",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q15/d.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q15/d.webp",
         "points": 1,
         "label": "Opsi D",
         "action": "move"
@@ -595,28 +595,28 @@
     "options": [
       {
         "id": "a",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q16/a.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q16/a.webp",
         "points": 2,
         "label": "Opsi A",
         "action": "move"
       },
       {
         "id": "b",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q16/b.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q16/b.webp",
         "points": 3,
         "label": "Opsi B",
         "action": "stay"
       },
       {
         "id": "c",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q16/c.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q16/c.webp",
         "points": 4,
         "label": "Opsi C",
         "action": "move"
       },
       {
         "id": "d",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q16/d.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q16/d.webp",
         "points": 1,
         "label": "Opsi D",
         "action": "move"
@@ -634,28 +634,28 @@
     "options": [
       {
         "id": "a",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q17/a.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q17/a.webp",
         "points": 2,
         "label": "Opsi A",
         "action": "move"
       },
       {
         "id": "b",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q17/b.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q17/b.webp",
         "points": 1,
         "label": "Opsi B",
         "action": "stay"
       },
       {
         "id": "c",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q17/c.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q17/c.webp",
         "points": 3,
         "label": "Opsi C",
         "action": "move"
       },
       {
         "id": "d",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q17/d.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q17/d.webp",
         "points": 4,
         "label": "Opsi D",
         "action": "move"
@@ -673,28 +673,28 @@
     "options": [
       {
         "id": "a",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q18/a.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q18/a.webp",
         "points": 2,
         "label": "Opsi A",
         "action": "move"
       },
       {
         "id": "b",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q18/b.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q18/b.webp",
         "points": 4,
         "label": "Opsi B",
         "action": "move"
       },
       {
         "id": "c",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q18/c.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q18/c.webp",
         "points": 1,
         "label": "Opsi C",
         "action": "move"
       },
       {
         "id": "d",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q18/d.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q18/d.webp",
         "points": 3,
         "label": "Opsi D",
         "action": "move"
@@ -712,28 +712,28 @@
     "options": [
       {
         "id": "a",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q19/a.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q19/a.webp",
         "points": 1,
         "label": "Opsi A",
         "action": "move"
       },
       {
         "id": "b",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q19/b.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q19/b.webp",
         "points": 2,
         "label": "Opsi B",
         "action": "stay"
       },
       {
         "id": "c",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q19/c.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q19/c.webp",
         "points": 4,
         "label": "Opsi C",
         "action": "move"
       },
       {
         "id": "d",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q19/d.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q19/d.webp",
         "points": 3,
         "label": "Opsi D",
         "action": "move"
@@ -751,28 +751,28 @@
     "options": [
       {
         "id": "a",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q20/a.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q20/a.webp",
         "points": 2,
         "label": "Opsi A",
         "action": "move"
       },
       {
         "id": "b",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q20/b.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q20/b.webp",
         "points": 1,
         "label": "Opsi B",
         "action": "move"
       },
       {
         "id": "c",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q20/c.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q20/c.webp",
         "points": 4,
         "label": "Opsi C",
         "action": "move"
       },
       {
         "id": "d",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q20/d.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q20/d.webp",
         "points": 3,
         "label": "Opsi D",
         "action": "stay"
@@ -790,28 +790,28 @@
     "options": [
       {
         "id": "a",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q21/a.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q21/a.webp",
         "points": 4,
         "label": "Opsi A",
         "action": "move"
       },
       {
         "id": "b",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q21/b.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q21/b.webp",
         "points": 1,
         "label": "Opsi B",
         "action": "move"
       },
       {
         "id": "c",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q21/c.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q21/c.webp",
         "points": 3,
         "label": "Opsi C",
         "action": "move"
       },
       {
         "id": "d",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q21/d.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q21/d.webp",
         "points": 2,
         "label": "Opsi D",
         "action": "move"
@@ -829,28 +829,28 @@
     "options": [
       {
         "id": "a",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q22/a.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q22/a.webp",
         "points": 4,
         "label": "Opsi A",
         "action": "move"
       },
       {
         "id": "b",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q22/b.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q22/b.webp",
         "points": 3,
         "label": "Opsi B",
         "action": "move"
       },
       {
         "id": "c",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q22/c.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q22/c.webp",
         "points": 1,
         "label": "Opsi C",
         "action": "move"
       },
       {
         "id": "d",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q22/d.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q22/d.webp",
         "points": 2,
         "label": "Opsi D",
         "action": "move"
@@ -868,28 +868,28 @@
     "options": [
       {
         "id": "a",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q23/a.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q23/a.webp",
         "points": 1,
         "label": "Opsi A",
         "action": "move"
       },
       {
         "id": "b",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q23/b.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q23/b.webp",
         "points": 4,
         "label": "Opsi B",
         "action": "move"
       },
       {
         "id": "c",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q23/c.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q23/c.webp",
         "points": 3,
         "label": "Opsi C",
         "action": "move"
       },
       {
         "id": "d",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q23/d.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q23/d.webp",
         "points": 2,
         "label": "Opsi D",
         "action": "stay"
@@ -907,28 +907,28 @@
     "options": [
       {
         "id": "a",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q24/a.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q24/a.webp",
         "points": 3,
         "label": "Opsi A",
         "action": "move"
       },
       {
         "id": "b",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q24/b.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q24/b.webp",
         "points": 1,
         "label": "Opsi B",
         "action": "stay"
       },
       {
         "id": "c",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q24/c.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q24/c.webp",
         "points": 4,
         "label": "Opsi C",
         "action": "move"
       },
       {
         "id": "d",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q24/d.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q24/d.webp",
         "points": 2,
         "label": "Opsi D",
         "action": "move"
@@ -946,28 +946,28 @@
     "options": [
       {
         "id": "a",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q25/a.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q25/a.webp",
         "points": 1,
         "label": "Opsi A",
         "action": "move"
       },
       {
         "id": "b",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q25/b.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q25/b.webp",
         "points": 2,
         "label": "Opsi B",
         "action": "move"
       },
       {
         "id": "c",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q25/c.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q25/c.webp",
         "points": 3,
         "label": "Opsi C",
         "action": "move"
       },
       {
         "id": "d",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q25/d.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q25/d.webp",
         "points": 4,
         "label": "Opsi D",
         "action": "move"
@@ -985,28 +985,28 @@
     "options": [
       {
         "id": "a",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q26/a.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q26/a.webp",
         "points": 1,
         "label": "Opsi A",
         "action": "move"
       },
       {
         "id": "b",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q26/b.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q26/b.webp",
         "points": 3,
         "label": "Opsi B",
         "action": "move"
       },
       {
         "id": "c",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q26/c.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q26/c.webp",
         "points": 2,
         "label": "Opsi C",
         "action": "move"
       },
       {
         "id": "d",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q26/d.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q26/d.webp",
         "points": 4,
         "label": "Opsi D",
         "action": "move"
@@ -1024,28 +1024,28 @@
     "options": [
       {
         "id": "a",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q27/a.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q27/a.webp",
         "points": 3,
         "label": "Opsi A",
         "action": "stay"
       },
       {
         "id": "b",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q27/b.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q27/b.webp",
         "points": 2,
         "label": "Opsi B",
         "action": "move"
       },
       {
         "id": "c",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q27/c.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q27/c.webp",
         "points": 4,
         "label": "Opsi C",
         "action": "move"
       },
       {
         "id": "d",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q27/d.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q27/d.webp",
         "points": 1,
         "label": "Opsi D",
         "action": "move"
@@ -1063,28 +1063,28 @@
     "options": [
       {
         "id": "a",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q28/a.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q28/a.webp",
         "points": 3,
         "label": "Opsi A",
         "action": "move"
       },
       {
         "id": "b",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q28/b.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q28/b.webp",
         "points": 4,
         "label": "Opsi B",
         "action": "move"
       },
       {
         "id": "c",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q28/c.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q28/c.webp",
         "points": 1,
         "label": "Opsi C",
         "action": "move"
       },
       {
         "id": "d",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q28/d.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q28/d.webp",
         "points": 2,
         "label": "Opsi D",
         "action": "stay"
@@ -1102,28 +1102,28 @@
     "options": [
       {
         "id": "a",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q29/a.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q29/a.webp",
         "points": 4,
         "label": "Opsi A",
         "action": "move"
       },
       {
         "id": "b",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q29/b.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q29/b.webp",
         "points": 3,
         "label": "Opsi B",
         "action": "stay"
       },
       {
         "id": "c",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q29/c.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q29/c.webp",
         "points": 1,
         "label": "Opsi C",
         "action": "move"
       },
       {
         "id": "d",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q29/d.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q29/d.webp",
         "points": 2,
         "label": "Opsi D",
         "action": "move"
@@ -1141,28 +1141,28 @@
     "options": [
       {
         "id": "a",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q30/a.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q30/a.webp",
         "points": 3,
         "label": "Opsi A",
         "action": "move"
       },
       {
         "id": "b",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q30/b.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q30/b.webp",
         "points": 4,
         "label": "Opsi B",
         "action": "move"
       },
       {
         "id": "c",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q30/c.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q30/c.webp",
         "points": 1,
         "label": "Opsi C",
         "action": "move"
       },
       {
         "id": "d",
-        "imageUrl": "https://media.bchdims.workers.dev/images/q30/d.png",
+        "imageUrl": "https://media.bchdims.workers.dev/images/q30/d.webp",
         "points": 2,
         "label": "Opsi D",
         "action": "stay"

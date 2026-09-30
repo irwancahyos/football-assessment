@@ -8,9 +8,9 @@ export const trialQuestion: Question = {
   hintText: '',
   hintTargetOptionId: 'a',
   options: [
-    { id: 'a', imageUrl: 'https://media.bchdims.workers.dev/images/q01/a.png', points: 0, label: 'Opsi A', action: 'move' },
-    { id: 'b', imageUrl: 'https://media.bchdims.workers.dev/images/q01/b.png', points: 0, label: 'Opsi B', action: 'move' },
-    { id: 'c', imageUrl: 'https://media.bchdims.workers.dev/images/q01/c.png', points: 0, label: 'Opsi C', action: 'move' },
-    { id: 'd', imageUrl: 'https://media.bchdims.workers.dev/images/q01/d.png', points: 0, label: 'Opsi D', action: 'move' },
+    { id: 'a', imageUrl: 'https://media.bchdims.workers.dev/images/q01/a.webp', points: 0, label: 'Opsi A', action: 'move' },
+    { id: 'b', imageUrl: 'https://media.bchdims.workers.dev/images/q01/b.webp', points: 0, label: 'Opsi B', action: 'move' },
+    { id: 'c', imageUrl: 'https://media.bchdims.workers.dev/images/q01/c.webp', points: 0, label: 'Opsi C', action: 'move' },
+    { id: 'd', imageUrl: 'https://media.bchdims.workers.dev/images/q01/d.webp', points: 0, label: 'Opsi D', action: 'move' },
   ],
 };

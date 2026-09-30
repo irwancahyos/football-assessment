@@ -4,8 +4,7 @@ import { useState } from 'react';
 import { X, Copy, Check } from 'lucide-react';
 import { useI18n } from '@/lib/i18n';
 
-// ponytail: dummy handle — replace with the real admin username when ready.
-const TELEGRAM_HANDLE = 'fdma_admin';
+const TELEGRAM_HANDLE = 'giovedicatur';
 const TELEGRAM_URL = `https://t.me/${TELEGRAM_HANDLE}`;
 
 export default function PrivateAccessModal({
