@@ -25,6 +25,15 @@ const feet: { value: Foot; labelKey: string }[] = [
   { value: 'both', labelKey: 'form.foot.both' },
 ];
 
+const instructionKeys = [
+  'form.instruction1',
+  'form.instruction2',
+  'form.instruction3',
+  'form.instruction4',
+  'form.instruction5',
+  'form.instruction6',
+] as const;
+
 const years = Array.from({ length: 36 }, (_, i) => 2015 - i); // 2015-1980
 
 export default function ProfilePage() {
@@ -91,71 +100,14 @@ export default function ProfilePage() {
               <Info className="w-5 h-5 text-accent" />
               <p className="font-heading text-accent text-lg">{t('form.rulesTitle')}</p>
             </div>
-            {/* ponytail: solid accent — /80 looked off-yellow over the yellow bg; restore text-accent/80 with the blue revert if wanted. */}
             <div className="space-y-3 text-sm text-accent">
-              <p className="font-heading text-accent text-base mb-1">{t('form.mustTitle')}</p>
-              <div className="space-y-1.5">
-                <div className="flex gap-2 items-start"><span className="text-accent shrink-0">•</span><span>{t('form.rule1')}</span></div>
-                <div className="flex gap-2 items-start"><span className="text-accent shrink-0">•</span><span>{t('form.rule2')}</span></div>
-              </div>
-
-              <p className="font-heading text-accent text-base mt-4 mb-1">{t('form.extraTitle')}</p>
-              <div className="space-y-1.5">
-                <div className="flex gap-2 items-start"><span className="text-accent shrink-0">•</span><span>{t('form.extra1')}</span></div>
-                <div className="flex gap-2 items-start"><span className="text-accent shrink-0">•</span><span>{t('form.extra2')}</span></div>
-                <div className="flex gap-2 items-start"><span className="text-accent shrink-0">•</span><span>{t('form.extra3')}</span></div>
-              </div>
-
-              <p className="font-heading text-accent text-base mt-4 mb-1">{t('form.legendTitle')}</p>
-              <div className="space-y-2">
-                {/* Pass / movement — solid arrow */}
-                <div className="flex gap-2.5 items-center bg-accent/10 rounded-lg px-2.5 py-2">
-                  <span className="inline-flex w-9 h-7 items-center justify-center rounded-md bg-accent shrink-0">
-                    <svg viewBox="0 0 32 16" className="w-6 h-3 text-[#FAD707]" fill="none" aria-hidden="true">
-                      <path d="M1 8h25" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" />
-                      <path d="M26 2.5 30 8l-4 5.5" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
-                    </svg>
-                  </span>
-                  <span>{t('form.legend1')}</span>
+              {instructionKeys.map((key) => (
+                <div key={key} className="flex gap-2 items-start">
+                  <span className="text-accent shrink-0">•</span>
+                  <span>{t(key)}</span>
                 </div>
-                {/* Dribbling — dashed arrow */}
-                <div className="flex gap-2.5 items-center bg-accent/10 rounded-lg px-2.5 py-2">
-                  <span className="inline-flex w-9 h-7 items-center justify-center rounded-md bg-accent shrink-0">
-                    <svg viewBox="0 0 32 16" className="w-6 h-3 text-[#FAD707]" fill="none" aria-hidden="true">
-                      <path d="M1 8h24" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeDasharray="4 3" />
-                      <path d="M26 2.5 30 8l-4 5.5" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
-                    </svg>
-                  </span>
-                  <span>{t('form.legend2')}</span>
-                </div>
-                {/* First touch — curved arrow */}
-                <div className="flex gap-2.5 items-center bg-accent/10 rounded-lg px-2.5 py-2">
-                  <span className="inline-flex w-9 h-7 items-center justify-center rounded-md bg-accent shrink-0">
-                    <svg viewBox="0 0 32 16" className="w-6 h-3 text-[#FAD707]" fill="none" aria-hidden="true">
-                      <path d="M2 13 Q2 4 24 4" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" fill="none" />
-                      <path d="M20 8 26 4 20 0.5" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
-                    </svg>
-                  </span>
-                  <span>{t('form.legend3')}</span>
-                </div>
-              </div>
+              ))}
 
-              <div className="mt-4 flex gap-2.5 items-center bg-accent/10 rounded-lg px-2.5 py-2">
-                {/* Marked player — spotlight cone filling the icon, player+ball at its end */}
-                <span className="inline-flex w-9 h-7 shrink-0 rounded-md bg-accent overflow-hidden" aria-hidden="true">
-                  <svg viewBox="0 0 36 28" className="w-full h-full" fill="none" aria-hidden="true">
-                    {/* spotlight cone filling width */}
-                    <path d="M12 0h12l8 19H4L12 0z" fill="#FAD707" />
-                    {/* player figure inside the beam */}
-                    {/* ponytail: alt blue trial — revert to #1f2e6c to restore. */}
-                    <circle cx="16" cy="10" r="3" fill="#1f4a93" />
-                    <path d="M16 13v4M16 15l-4 2.6M16 15l4.5 1.2" stroke="#1f4a93" strokeWidth="2.3" strokeLinecap="round" fill="none" />
-                    {/* ball */}
-                    <circle cx="24" cy="18" r="2.2" fill="#1f4a93" />
-                  </svg>
-                </span>
-                <span>{t('form.markedNote')}</span>
-              </div>
             </div>
           </div>
 
